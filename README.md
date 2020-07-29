@@ -1,0 +1,2 @@
+# Django-website-training
+This is a repository where I am planing on training skills on Django for future projects. The websites in here are just from tutorials I find online; I will indicate them. Probably most of this stuff will not be my ideas, but if any are, I will indicate in the README.md. Needless to say, this repository will contain purely python code (aside of the html, js, css). What can I say, I am a python whisperer!
