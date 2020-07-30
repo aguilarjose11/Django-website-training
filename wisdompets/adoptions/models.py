@@ -16,3 +16,7 @@ class Pet(models.Model):
 
 class Vaccine(models.Model):
     name = models.CharField(max_length=50)
+
+    # this is what will be displayed in the admin page.
+    def __str__(self):
+        return self.name # print the vaccine name

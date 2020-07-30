@@ -30,6 +30,7 @@ class Command(BaseCommand):
     # Show this when the user types help
     help = "Loads data from pet_data.csv into our Pet mode"
 
+    # this is called first
     def handle(self, *args, **options):
         if Vaccine.objects.exists() or Pet.objects.exists():
             print('Pet data already loaded...exiting.')
